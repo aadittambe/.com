@@ -3,7 +3,7 @@
         "project": "Tracking air travel: See how many people are flying this Thanksgiving",
         "url": "https://cnsmaryland.org/2021/11/18/tracking-air-travel-see-how-many-people-are-flying-this-thanksgiving",
         "org": "Capital News Service",
-        "img": "http://aadittambe.com/static/images/tracker.png",
+        "img": "../images/tracker.png",
         "storyType": "graphics data",
         "tools": "#javascript #webscraping #githubactions",
         "imgAlt": "Line charts showing air travel in the U.S. surge closer to Thanksgiving."
