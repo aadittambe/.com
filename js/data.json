@@ -65,7 +65,7 @@
     {
         "project": "Takeaways from the 2020 census for Maryland, in 5 charts",
         "url": "https://cnsmaryland.org/2021/10/07/takeaways-from-the-2020-census-for-maryland-in-5-charts/",
-        "org": "NBC News",
+        "org": "Capital News Service",
         "img": "../images/census.png",
         "storyType": "data graphics",
         "tools": "#javascript #leaflet #d3 #ai2html",
@@ -83,7 +83,7 @@
     {
         "project": "Quiz: See how your views line up with the results of the latest Goucher Poll",
         "url": "https://cnsmaryland.org/interactives/fall2021/goucher-poll/index.htmlhttps://www.nbcnews.com/news/us-news/what-u-s-abortion-access-looks-graphics-n1274859",
-        "org": "NBC News",
+        "org": "Capital News Service",
         "img": "https://cnsmaryland.org/interactives/fall2021/goucher-poll/illustrations/social-card-image.png",
         "storyType": "graphics",
         "tools": "#html #css #jquery",
@@ -92,7 +92,7 @@
     {
         "project": "Motion graphic: How do OSHA inspections work?",
         "url": "https://www.youtube.com/watch?v=HUzIJZN_118",
-        "org": "NBC News",
+        "org": "Howard Center",
         "img": "../images/osha.png",
         "storyType": "graphics",
         "tools": "#aftereffects #r",
