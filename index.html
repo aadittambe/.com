@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+        content="Aadit Tambe is a journalist and developer who tells data-driven stories visually — with code.">
+    <meta name="keywords" content="Aadit Tambe, graphics, data, journalism, code, storytelling">
+    <meta property="og:title"
+        content="Aadit Tambe is a journalist and developer who tells data-driven stories visually — with code." />
+    <meta property="og:description"
+        content="Aadit Tambe is a journalist and developer who tells data-driven stories visually — with code." />
+    <meta property="og:image" content="images/favicon.jpg" />
+    <link rel="shortcut icon" href="images/favicon.jpg">
+    <link rel="apple-touch-icon" href="images/favicon.jpg">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Load custom css -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Load fontawesome css -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!-- load fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Aadit Tambe — journalist and web developer</title>
+
+    <!-- google analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157385072-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-157385072-1');
+    </script>
+
+</head>
+
+<body>
+    <div id="hero">
+        <div class="type-anim">
+            <h1> <span id="simpleUsage"></span></h1>
+        </div>
+        <h2>journalist &amp; developer</h2>
+        <ul id="icons">
+            <li class="menuitem"><a href="https://twitter.com/aadittambe" target="_blank"><i
+                        class="fab fa-twitter"><span class="visually-hidden">Twitter</span></i></a></li>
+            <li class="menuitem"><a href="https://linkedin.com/in/aadittambe" target="_blank"><i
+                        class="fab fa-linkedin"><span class="visually-hidden">LinkedIn</span></i></a>
+            </li>
+            <li class="menuitem"><a href="https://github.com/aadittambe" target="_blank"><i
+                        class="fab fa-github-alt"><span class="visually-hidden">GitHub</span></i></a></li>
+            <li class="menuitem"><a href="mailto:aadit.tambe@gmail.com" target="_blank"><i class="fas fa-envelope"><span
+                            class="visually-hidden">Email</span></i></a></li>
+        </ul>
+    </div>
+
+    <div id="about">
+
+        <p>👋🏽 Hey, hey! I am Aadit, a journalist and developer who tells data-driven stories
+            visually &mdash; with code. </p>
+
+        <p>📍 As a fellow at the Howard Center for Investigative Journalism, I write web scrapers and crunch data sets
+            to report <a class="link" href="#work" id="link-reporting">public-interest stories</a> in narrative ways.
+        </p>
+
+        <p>⬅️ Previously, I worked for NBC News on the data and graphics team &mdash; I wrote code to develop
+            <a class="link" href="#work" id="link-graphics">interactive graphics</a> to tell data-driven stories
+            visually.
+        </p>
+
+        <p> 📚 I am pursuing a master&rsquo;s degree in data and computational journalism at the University of
+            Maryland. I
+            have an undergraduate degree in journalism and mass communication and a minor in German from the University
+            of
+            Iowa.</p>
+
+        <p>📝 This portfolio showcases projects in which I have used computational methods to wrangle data and write —
+            both in
+            English and in JavaScript — with a goal of making the news more accessible and understandable. My complete
+            work experience can be found in my <a class="link" href="docs/AaditTambe_Resume.pdf"
+                target="_blank">resume</a>.</p>
+
+        <p>🤝 If
+            you like
+            to keep up with
+            current events and care about the news experience as a whole &mdash; or want to simply chat about
+            trains or nerd out about antique fountain pens &mdash; we should connect!
+        </p>
+
+    </div>
+
+    <div id="work">
+        <fieldset class="btn-row">
+            <legend>
+                <p> 👀 Looking for a particular type of project? </p>
+            </legend>
+            <p class="description">
+                <label class="btn reset">
+                    <input type="radio" name="storyType" value="column" id="reset">
+                    <span>🌎<br>All</span>
+                </label>
+                <label class="btn">
+                    <input type="radio" name="storyType" value="text" id="text">
+                    <span>✍️<br>Feature</span>
+                </label>
+                <label class="btn">
+                    <input type="radio" name="storyType" value="data" id="data">
+                    <span>📈<br>Data-driven</span>
+                </label>
+                <label class="btn">
+                    <input type="radio" name="storyType" value="graphics" id="graphics">
+                    <span>🗺<br>Graphics</span>
+                </label>
+                <label class="btn">
+                    <input type="radio" name="storyType" value="app" id="app">
+                    <span>🖥<br>News app</span>
+                </label>
+
+            </p>
+            </p>
+        </fieldset>
+
+        <div class="card-deck" id="samples">
+            <!-- populated by D3 -->
+        </div>
+
+    </div>
+
+    <footer>
+
+
+        <div class="float-child" id="left">
+
+            <p>© Handmade by Aadit Tambe | 2019 –
+                <script>document.write(new Date().getFullYear())</script>
+            </p>
+
+        </div>
+
+        <div class="float-child" id="right">
+            <ul>
+                <li class="menuitem"><a href="https://twitter.com/aadittambe" target="_blank"><i
+                            class="fab fa-twitter"><span class="visually-hidden">Twitter</span></i></a></li>
+                <li class="menuitem"><a href="https://linkedin.com/in/aadittambe" target="_blank"><i
+                            class="fab fa-linkedin"><span class="visually-hidden">LinkedIn</span></i></a>
+                </li>
+                <li class="menuitem"><a href="https://github.com/aadittambe" target="_blank"><i
+                            class="fab fa-github-alt"><span class="visually-hidden">GitHub</span></i></a></li>
+                <li class="menuitem"><a href="mailto:aadit.tambe@gmail.com" target="_blank"><i
+                            class="fas fa-envelope"><span class="visually-hidden">Email</span></i></a></li>
+            </ul>
+        </div>
+
+
+    </footer>
+
+    <!-- load d3 -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/main.js" async defer></script>
+    <!-- typeit javascript -->
+    <script src="https://unpkg.com/typeit@8.2.0/dist/index.umd.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
