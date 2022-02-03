@@ -109,7 +109,7 @@ d3.json("js/data.json").then(function (loadedData) {
 
 // A fun-and-nerdy message for the console
 
-let text = '%cHey, hey! 👋🏽 Want to see more of my code? Head over to https://github.com/aadittambe to see I am currently obsessed about.';
+let text = '%cHey, hey! 👋🏽 Want to see more of my code? Head over to https://github.com/aadittambe to see what I am currently obsessed about.';
 let styles = [
     'font-size: 18px',
     'font-family: monospace',
