@@ -4,7 +4,7 @@
         "url": "https://cnsmaryland.org/interactives/fall2021/umd-crime/index.html",
         "org": "Capital News Service",
         "img": "../images/police.png",
-        "storyType": "graphics data app",
+        "storyType": "app",
         "tools": "#r #rshiny #githubactions #webscraping",
         "imgAlt": "Line charts showing air travel in the U.S. surge closer to Thanksgiving."
     },
@@ -22,7 +22,7 @@
         "url": "https://cnsmaryland.org/wp-content/uploads/2021/09/votinglaws.png",
         "org": "Capital News Service",
         "img": "https://cnsmaryland.org/wp-content/uploads/2021/09/votinglaws.png",
-        "storyType": "data graphics",
+        "storyType": "data graphics text",
         "tools": "#javascript #leaflet #datawrapper #r",
         "imgAlt": "A map showing states that have passed voting rights bills."
     },
