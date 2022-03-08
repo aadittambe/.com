@@ -164,7 +164,6 @@ i:hover{
 
 .card{ 
     min-width: 300px;
-    max-width: 300px;
     margin-top: 20px;
     margin-bottom: 20px;
     border: none;
@@ -286,6 +285,10 @@ footer {
     .card-deck .card{
         margin: auto;
         margin-bottom: 48px;
+    }
+
+    .card img{
+        max-width: 500px;
     }
 
     .card-tag{
