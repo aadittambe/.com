@@ -1,5 +1,23 @@
 [
     {
+        "project": "First GitHub Scraper",
+        "url": "https://palewi.re/docs/first-github-scraper/",
+        "org": "NICAR 22",
+        "img": "../images/scraper.png",
+        "storyType": "docs",
+        "tools": "#documentation",
+        "imgAlt": "Screenshot from a GitHub Actions workflow."
+    },
+    {
+        "project": "Building a data pipeline with GitHub Actions",
+        "url": "https://actions-pipeline.readthedocs.io/en/latest/",
+        "org": "NICAR 22",
+        "img": "../images/pipeline.png",
+        "storyType": "docs",
+        "tools": "#documentation",
+        "imgAlt": "Screenshot from the USGS website where we scraped data from."
+    },
+    {
         "project": "News App: Opening up University of Maryland police logs",
         "url": "https://cnsmaryland.org/interactives/fall2021/umd-crime/index.html",
         "org": "Capital News Service",

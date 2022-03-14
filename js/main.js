@@ -24,6 +24,7 @@ $("#graphics").click(function () {
     $(".data").hide()
     $(".text").hide()
     $(".graphics").show()
+    $(".docs").hide()
     $(".btn.reset span").css("background-color", "#f6f4e6")
 });
 
@@ -32,6 +33,7 @@ $("#data").click(function () {
     $(".graphics").hide()
     $(".text").hide()
     $(".data").show()
+    $(".docs").hide()
     $(".btn.reset span").css("background-color", "#f6f4e6")
 });
 
@@ -40,6 +42,7 @@ $("#text").click(function () {
     $(".graphics").hide()
     $(".data").hide()
     $(".text").show()
+    $(".docs").hide()
     $(".btn.reset span").css("background-color", "#f6f4e6")
 });
 
@@ -48,6 +51,16 @@ $("#app").click(function () {
     $(".graphics").hide()
     $(".data").hide()
     $(".app").show()
+    $(".docs").hide()
+    $(".btn.reset span").css("background-color", "#f6f4e6")
+});
+
+$("#docs").click(function () {
+    $(".text").hide()
+    $(".graphics").hide()
+    $(".data").hide()
+    $(".app").hide()
+    $(".docs").show()
     $(".btn.reset span").css("background-color", "#f6f4e6")
 });
 
@@ -56,6 +69,7 @@ $("#reset").click(function () {
     $(".graphics").show()
     $(".data").show()
     $(".app").show()
+    $(".docs").show()
     $(".btn.reset span").css("background-color", "#fddb3a")
 });
 
@@ -65,10 +79,12 @@ $("#reset").click(function () {
 // D3 to inject stories
 
 d3.json("js/data.json").then(function (loadedData) {
+    const shuffledData = d3.shuffle(loadedData)
+    console.log(shuffledData)
 
     const projects = d3.select('#samples')
         .selectAll('.card')
-        .data(loadedData)
+        .data(shuffledData)
         .join('div')
         .attr('class', function (d) {
             return `card column ${d.storyType}`
