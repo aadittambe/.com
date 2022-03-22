@@ -1,6 +1,6 @@
 [
     {
-        "project": "First GitHub Scraper",
+        "project": "Co-author: First GitHub Scraper",
         "url": "https://palewi.re/docs/first-github-scraper/",
         "org": "NICAR 22",
         "img": "../images/scraper.png",
@@ -9,7 +9,7 @@
         "imgAlt": "Screenshot from a GitHub Actions workflow."
     },
     {
-        "project": "Building a data pipeline with GitHub Actions",
+        "project": "Co-author: Building a data pipeline with GitHub Actions",
         "url": "https://actions-pipeline.readthedocs.io/en/latest/",
         "org": "NICAR 22",
         "img": "../images/pipeline.png",
