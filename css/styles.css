@@ -116,6 +116,12 @@ i:hover{
     max-width: 720px;
 }
 
+.btn{
+    padding-left: 5px;
+    padding-right: 5px;
+  
+}
+
 .btn input {
     display: none;
   }
