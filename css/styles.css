@@ -116,11 +116,6 @@ i:hover{
     max-width: 720px;
 }
 
-.btn{
-    padding-left: 0px;
-  
-}
-
 .btn input {
     display: none;
   }
@@ -262,10 +257,6 @@ footer {
     }
     #icons{
         font-size: 26px;
-    }
-
-    .btn{
-        padding-right: 10px;
     }
 
     .btn span {
