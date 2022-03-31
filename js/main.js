@@ -87,7 +87,7 @@ d3.json("js/data.json").then(function (loadedData) {
         .data(shuffledData)
         .join('div')
         .attr('class', function (d) {
-            return `card column ${d.storyType}`
+            return `card ${d.storyType}`
         });
 
     const links = projects
