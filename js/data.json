@@ -1,5 +1,23 @@
 [
     {
+        "project": "News App: Missing Migrants",
+        "url": "https://github.com/aadittambe/migrants/",
+        "org": "Personal project",
+        "img": "../images/migrants.png",
+        "storyType": "graphics app",
+        "tools": "#d3 #leaflet #pandas #scrolly",
+        "imgAlt": "Screenshot of a map with missing migrants."
+    },
+    {
+        "project": "A D3-based graphics rig, built with Grunt",
+        "url": "https://github.com/aadittambe/graphics-starter/",
+        "org": "Personal project",
+        "img": "../images/rig.png",
+        "storyType": "graphics app",
+        "tools": "#d3 #grunt",
+        "imgAlt": "Screenshot from a bar chart created from the rig."
+    },
+    {
         "project": "Co-author: First GitHub Scraper",
         "url": "https://palewi.re/docs/first-github-scraper/",
         "org": "NICAR 22",
@@ -183,7 +201,7 @@
         "project": "A Hole New Perspective on Brood X",
         "url": "https://today.umd.edu/articles/hole-new-perspective-brood-x-e5ba6d18-6904-4320-a070-20f3402c1f33",
         "org": "Maryland Today",
-        "img": "https://hub.umd.edu/sites/default/files/2021-05/image/whackacicada_1820x1080_2.gif",
+        "img": "https://today.umd.edu/uploads/hero/whackacicada_1820x1080_2.gif",
         "storyType": "text",
         "tools": "#newswriting",
         "imgAlt": "Whackacicada animation gif."
@@ -192,7 +210,7 @@
         "project": "Decoding Black Stories Built Into the Environment",
         "url": "https://today.umd.edu/articles/decoding-black-stories-built-environment-9e908154-9ea4-4711-9234-e55aebdae2e9",
         "org": "Maryland Today",
-        "img": "https://hub.umd.edu/sites/default/files/2021-04/image/snowball-cart-harlem-park-wide-1920x1080.jpg",
+        "img": "https://today.umd.edu/uploads/hero/snowball-cart-harlem-park-wide-1920x1080.jpg",
         "storyType": "text",
         "tools": "#newswriting",
         "imgAlt": "Harlem Park, Baltimore photograph."
@@ -201,7 +219,7 @@
         "project": "‘Zero Excuses’: UMD alumn — a Dreamer — Helps Immigrants Rebuild Their Lives.",
         "url": "https://today.umd.edu/articles/zero-excuses-d778f040-0aa4-478b-9d2a-80a31fbecd2b",
         "org": "Maryland Today",
-        "img": "https://hub.umd.edu/sites/default/files/2021-02/image/IMG_9002_1920x1080.jpg",
+        "img": "https://today.umd.edu/uploads/hero/IMG_9002_1920x1080.jpg",
         "storyType": "text",
         "tools": "#newswriting",
         "imgAlt": "A picture of the person featured in the story, Sandoval."
@@ -210,7 +228,7 @@
         "project": "Model Car Kits Make Learning Kinetic During COVID",
         "url": "https://today.umd.edu/articles/model-car-kits-make-learning-kinetic-during-covid-75cd1a21-3ff6-4e13-9090-f5a6dda748bc",
         "org": "Maryland Today",
-        "img": "https://hub.umd.edu/sites/default/files/2020-12/image/shutterstock_1505655110_1920x1080.jpg",
+        "img": "https://today.umd.edu/uploads/hero/shutterstock_1505655110_1920x1080.jpg",
         "storyType": "text",
         "tools": "#newswriting",
         "imgAlt": "An illustration of Earth."
