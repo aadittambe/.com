@@ -1,3 +1,3 @@
-# 👨🏽‍💻 My website
+# 👨🏽‍💻 My website [archived]
 
-Code for my website, which can be found at [aadittambe.com](https://aadittambe.com/).
+Code for the old iteration of my website.
